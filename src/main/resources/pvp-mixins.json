@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "zeb.bws56.pvp.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ExampleMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

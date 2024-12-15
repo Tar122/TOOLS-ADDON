@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "pvp-addon",
+  "version": "${version}",
+  "name": "pvp Addon",
+  "description": "pvp Addon for Meteor Client ",
+  "authors": [
+    "Zeb"
+  ],
+  "contact": {
+    "repo": "https://github.com/Tar122/PVP-ADDON"
+  },
+  "icon": "assets/pvp/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "zeb.bws56.pvp.Addon"
+    ]
+  },
+  "mixins": [
+    "pvp-mixins.json"
+  ],
+  "custom": {
+    "meteor-client:color": "225,25,25"
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": ["${mc_version}"],
+    "meteor-client": "*"
+  }
+}
